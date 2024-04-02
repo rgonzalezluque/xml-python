@@ -27,4 +27,7 @@ Tipus d'**objectes**:
 
 Linea per a importar minidom a *Python*:
 `from xml.dom import minidom
-hola`
+hola ha 
+gadadasdasdasdasd
+sadasdasdasdsaa 
+asdasdasda sdsadas`
