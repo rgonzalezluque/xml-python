@@ -16,14 +16,14 @@ Més informació a: https://developer.mozilla.org/es/docs/Web/API/Document_Objec
 * getAttribute(): conseguir valor de un atribut
 * getElementsbyTagName(): Pots trabajar con element que tenen la mateixa etiqueta com una llista
 
-**Minidom**: mòdul de python per obtindre dades de xml a través de Python
-
 Tipus d'**objectes**: 
 * Element
 * Attr
 * Comment
 * Text
 * ProcessingInsruction
+
+**Minidom**: mòdul de python per obtindre dades de xml a través de Python
 
 Linea per a importar minidom a *Python*:
 `from xml.dom import minidom`
