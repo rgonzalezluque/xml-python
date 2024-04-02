@@ -5,6 +5,7 @@ Aquest repositori és una recopilació dels meus apunts sobre les tecnològies q
 ### Què és *DOM* (Model d'objectes de document)?
 *Dom* és una representació estructurada d'un document HTML/XML que el navegador pot interpretar i manipular. El DOM és essencial per a la creació de pàgines web interactives i dinàmiques.
 
+Més informació a: https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction
 ### Com recorrer *DOM*?
 **Propietats**:
 * Firstchild: Primer fill
