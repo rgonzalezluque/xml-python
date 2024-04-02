@@ -26,4 +26,4 @@ Tipus d'**objectes**:
 * ProcessingInsruction
 
 Linea per a importar minidom a *Python*:
-from xml.dom import minidom
+`from xml.dom import minidom`
