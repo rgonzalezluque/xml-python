@@ -26,4 +26,5 @@ Tipus d'**objectes**:
 **Minidom**: mòdul de python per obtindre dades de xml a través de Python
 
 Linea per a importar minidom a *Python*:
-`from xml.dom import minidom`
+`from xml.dom import minidom
+hola`
