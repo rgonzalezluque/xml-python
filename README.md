@@ -17,7 +17,7 @@ Propietats:
 
 Minidom: mòdul de python per obtindre dades de xml a través de Python
 
-tipus d'objectes: 
+Tipus d'objectes: 
 * Element
 * Attr
 * Comment
