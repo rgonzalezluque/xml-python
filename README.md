@@ -6,23 +6,23 @@ Aquest repositori és una recopilació dels meus apunts sobre les tecnològies q
 *Dom* és una representació estructurada d'un document HTML/XML que el navegador pot interpretar i manipular. El DOM és essencial per a la creació de pàgines web interactives i dinàmiques.
 
 ### Com recorrer *DOM*?
-Propietats:
-* Firstchild: Primer hijo
-* Lastchild: último hijo
-* nodeName: nombre del nodo o elemento
-* nodeValue: valor del nodo o elemento
-* tagName: nombre de la etiqueta
-* getAttribute(): conseguir valor de un atributo
-* getElementsbyTagName(): Puedes trabajar con elementos que tienen la misma etiqueta como una lista
+**Propietats**:
+* Firstchild: Primer fill
+* Lastchild: últim fill
+* nodeName: nom del node o element
+* nodeValue: valor del node o element
+* tagName: nom de l'etiqueta
+* getAttribute(): conseguir valor de un atribut
+* getElementsbyTagName(): Pots trabajar con element que tenen la mateixa etiqueta com una llista
 
-Minidom: mòdul de python per obtindre dades de xml a través de Python
+**Minidom**: mòdul de python per obtindre dades de xml a través de Python
 
-Tipus d'objectes: 
+Tipus d'**objectes**: 
 * Element
 * Attr
 * Comment
 * Text
 * ProcessingInsruction
 
-Linea para importar minidom a Python:
+Linea per a importar minidom a *Python*:
 from xml.dom import minidom
