@@ -37,6 +37,7 @@ Linea per a importar minidom a *Python*:
 Explicación FOR
 
 Exemple de bucle for:
+
 ![Captura de pantalla 2024-04-03 172519](https://github.com/rgonzalezluque/xml-python/assets/165800646/6a2e4744-949f-4cef-97a5-9d1ad1b3dea8)
 
 ## XSLT I XPATH
