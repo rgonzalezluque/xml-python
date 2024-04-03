@@ -8,13 +8,13 @@ Aquest repositori és una recopilació dels meus apunts sobre les tecnològies q
 Més informació a: https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction
 ### Com recórrer *DOM*?
 **Propietats**:
-* Firstchild: Primer fill
+* Firstchild: primer fill
 * Lastchild: últim fill
 * nodeName: nom del node o element
 * nodeValue: valor del node o element
 * tagName: nom de l'etiqueta
 * getAttribute(): conseguir valor de un atribut
-* getElementsbyTagName(): Pots trabajar con element que tenen la mateixa etiqueta com una llista
+* getElementsbyTagName(): pots trabajar con element que tenen la mateixa etiqueta com una llista
 
 Tipus d'**objectes**: 
 * Element
