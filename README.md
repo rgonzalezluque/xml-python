@@ -43,4 +43,5 @@ Exemple de bucle for:
 ### Què és XSLT?
 **XSLT** (eXtensible Stylesheet Language Transformations) és un llenguatge per transformar documents XML en altres documents XML o en altres tipus de documents com 
 ara HTML, text pla o en format XSL-FO (que després pot ser convertit a PDF, PostScript i/o PNG).
+
 ![image](https://github.com/rgonzalezluque/xml-python/assets/165800646/e441bc0a-42b2-4161-b8c3-1930d3c4263b)
