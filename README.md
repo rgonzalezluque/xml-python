@@ -23,14 +23,14 @@ Tipus d'**objectes**:
 * Text
 * ProcessingInsruction
 
-*** Python aplicat a DOM
+### Python aplicat a DOM
 
 **Minidom**: mòdul de python per obtindre dades de xml a través de Python
 
 Linea per a importar minidom a *Python*:
 `from xml.dom import minidom`
 
-**** Bucle FOR
+#### Bucle FOR
 
 
 *** XSLT I XPATH
