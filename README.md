@@ -33,4 +33,4 @@ Linea per a importar minidom a *Python*:
 #### Bucle FOR
 
 
-*** XSLT I XPATH
+### XSLT I XPATH
