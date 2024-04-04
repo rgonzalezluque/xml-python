@@ -43,10 +43,10 @@ repetitives i són útils en el context del DOM per manipular elements HTML en u
 
 Exemple de bucle for:
 ```python
+diccionariColors = dict()
 colors = doc.getElementsByTagName("colors")[0].getElementsByTagName("assignatura")
 for x in colors:
     diccionariColors[x.firstChild.data] = x.getAttribute("color")
-    indexC += 1
 print(diccionariColors)
 ```
 En aquest exemple utilitzem un bucle for per obtindre el atribut del color de cada assignatura.
