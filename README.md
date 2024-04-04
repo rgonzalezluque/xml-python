@@ -73,21 +73,21 @@ Per declarar un arxiu XSL hem d'escriure el següent codi:
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 ```
 Els XSL disposen de diferents elements que podem utilitzar depenent dels nostres objectius:
-* Element <xsl:template>
+* **Element <xsl:template>.**
 S'utilitza per crear plantilles.
 ```xslt
 <xsl:template match="/">
 ```
 En aquest exemple creem una plantilla per l'arrel del xml.
 
-* Element <xsl:value-of>
+* **Element <xsl:value-of>.**
 S'utilitza per extreure el valor d'un node seleccionat.
 ```xslt
 <xsl:value-of select="/horari/links/@nom"/>
 ```
 En aquest exemple s'utilitza per extreure el valor del atribut nom del node links que té com a element arrel a horari.
 
-* Element <xsl:for-each>
+* **Element <xsl:for-each>.**
 S'utilitza per seleccionar tots els elements XML d'un conjunt de nodes especificat.
 ```xslt
 <xsl:for-each select="catalog/cd">
@@ -100,7 +100,7 @@ S'utilitza per seleccionar tots els elements XML d'un conjunt de nodes especific
 ```
 En aquest exemple s'utilitza per extreure el valor de les etiquetes "title", "artist" i "country" de cada cd.
 
-* Element <xsl:sort>
+* **Element <xsl:sort>.**
 S'utilitza per ordenar la sortida de un element <xsl:for-each>
 ```xslt
 <xsl:for-each select="/horari/links/link">        
@@ -110,7 +110,7 @@ S'utilitza per ordenar la sortida de un element <xsl:for-each>
 ```
 En aquest exemple s'utilitza per ordenar els elements "nom" resultants d'aquest <xsl:for-each>.
 
-* Element <xsl:if>
+* **Element <xsl:if>.**
 S'utilitza per a fer condicions amb el contingut del XML.
 ```xslt
 <xsl:for-each select="catalog/cd">
@@ -125,7 +125,7 @@ S'utilitza per a fer condicions amb el contingut del XML.
 ```
 En aquest cas s'extreuen només els valors si el preu del cd és major que 10.
 
-* Element <xsl:choose>
+* **Element <xsl:choose>.**
 L'element <xsl:choose> s'utilitza juntament amb <xsl:when> i <xsl:otherwise> per expressar múltiples condicions.
 ```xslt
 <xsl:choose>
@@ -139,14 +139,14 @@ L'element <xsl:choose> s'utilitza juntament amb <xsl:when> i <xsl:otherwise> per
 ```
 En aquest exemple la imatge canvia si el preu és major que 15 o no.
 
-* Element <xsl:variable>
+* **Element <xsl:variable>.**
 S'utilitza per declarar variables a xslt.
 ```xslt
 <xsl:variable name="color" select="'red'" />
 ```
 En aquest exemple declarem una variable amb nom "color" i valor "red".
 
-* Element <xsl:apply-templates>
+* **Element <xsl:apply-templates>.**
 S'utilitza per aplicar plantilles a l'element actual o als fills d'aquest.
 ```xslt
 <p>
