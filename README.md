@@ -25,7 +25,12 @@ Tipus d'**objectes**:
 
 Exemple de codi amb DOM
 ```python
-exemple
+from xml.dom import minidom
+f = open("pepe.html", "w")
+
+doc = minidom.parse("XML.xml")
+
+listaPersonas = doc.getElementsByTagName("person")
 ```
 ### Python aplicat a DOM
 
