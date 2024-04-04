@@ -32,7 +32,9 @@ exemple
 **Minidom**: mòdul de python per obtindre dades de xml a través de Python
 
 Linea per a importar minidom a *Python*:
-`from xml.dom import minidom`
+```python
+from xml.dom import minidom
+```
 
 #### Bucle FOR
 Un bucle for és una estructura de control en la programación que s'usa per repetir un bloc de codi un nombre determinat de vegades. És una manera eficient de 
