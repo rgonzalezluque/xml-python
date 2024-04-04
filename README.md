@@ -27,9 +27,7 @@ Exemple de codi amb DOM
 ```python
 from xml.dom import minidom
 f = open("pepe.html", "w")
-
 doc = minidom.parse("XML.xml")
-
 listaPersonas = doc.getElementsByTagName("person")
 ```
 ### Python aplicat a DOM
