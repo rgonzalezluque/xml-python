@@ -24,8 +24,9 @@ Tipus d'**objectes**:
 * ProcessingInsruction
 
 Exemple de codi amb DOM
-
-
+```python
+exemple
+```
 ### Python aplicat a DOM
 
 **Minidom**: mòdul de python per obtindre dades de xml a través de Python
@@ -34,11 +35,19 @@ Linea per a importar minidom a *Python*:
 `from xml.dom import minidom`
 
 #### Bucle FOR
-Explicación FOR
+Un bucle for és una estructura de control en la programación que s'usa per repetir un bloc de codi un nombre determinat de vegades. És una manera eficient de 
+manejar tasques repetitives, com iterar sobre els elements d'una llista o realitzar càlculs repetits. Els bucles for són una eina potent per manejar tasques 
+repetitives i són útils en el context del DOM per manipular elements HTML en una pàgina web de manera eficient.
 
 Exemple de bucle for:
-
-![Captura de pantalla 2024-04-03 172519](https://github.com/rgonzalezluque/xml-python/assets/165800646/6a2e4744-949f-4cef-97a5-9d1ad1b3dea8)
+```python
+colors = doc.getElementsByTagName("colors")[0].getElementsByTagName("assignatura")
+for x in colors:
+    diccionariColors[x.firstChild.data] = x.getAttribute("color")
+    indexC += 1
+print(diccionariColors)
+```
+En aquest exemple utilitzem un bucle for per obtindre el atribut del color de cada assignatura.
 
 ## XSLT I XPATH
 ### Què és XSLT?
