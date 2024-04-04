@@ -161,7 +161,7 @@ XPATH s'utilitza al llenguatge XSLT. S'utilitza per navegar sobre elements i atr
 Fem servir camins per indicar la situació d'un element de l'arxiu XML.
 ![Captura de pantalla 2024-04-05 003746](https://github.com/rgonzalezluque/xml-python/assets/165800646/1bcf8518-5813-41d4-bed3-d2fc1692c572)
 
-Exemples de Paths:
+#### Exemples de Paths:
 ```xpath
 /botiga/bluray[1] indica el primer element bluray.
 //title[@idioma] indica els títols amb l’atribut idioma.
