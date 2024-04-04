@@ -26,10 +26,10 @@ Tipus d'**objectes**:
 Exemple de codi amb DOM
 ```python
 from xml.dom import minidom
-f = open("pepe.html", "w")
 doc = minidom.parse("XML.xml")
 listaPersonas = doc.getElementsByTagName("person")
 ```
+En aquest exemple fem una llista dels elements amb l'etiqueta "person". Aquesta llista després la podrem recórrer.
 ### Python aplicat a DOM
 
 **Minidom**: mòdul de python per obtindre dades de xml a través de Python
