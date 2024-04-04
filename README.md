@@ -14,7 +14,7 @@ Més informació a: https://developer.mozilla.org/es/docs/Web/API/Document_Objec
 * nodeValue: valor del node o element
 * tagName: nom de l'etiqueta
 * getAttribute(): conseguir valor de un atribut
-* getElementsbyTagName(): pots trabajar con element que tenen la mateixa etiqueta com una llista
+* getElementsbyTagName(): pots trabajar amb elements que tenen la mateixa etiqueta com una llista
 
 Tipus d'**objectes**: 
 * Element
